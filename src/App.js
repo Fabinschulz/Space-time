@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/cadastro' component={Cadastro} />
+        <Route path='/' component={Cadastro} />
         <Route path='/login' component={SignIn} />
       </Switch>
     </Router>
